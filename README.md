@@ -37,7 +37,7 @@ yarn build:backend
 ```bash
 docker image build . -f packages/backend/Dockerfile --tag backstage --no-cache    
 ```
-
+Output do comando de build:
 ![alt text](image.png)
 
 ### Rode o container Docker:
@@ -46,5 +46,7 @@ sudo docker run -it -p 7007:7007 backstage
 ```
 
 ![alt text](image-1.png)
+
+A imagem acima demonstra a aplicação do backstage rodando corretamente.
 
 
